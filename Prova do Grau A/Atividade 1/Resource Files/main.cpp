@@ -15,7 +15,7 @@ int main() {
     d2.adicionarFuncionario(&f3);
     
     Empresa e1("Unisinos", 32669058000119);
-    e1.adicionarDepartamento(&d1); // agora tratando como ponteiro
+    e1.adicionarDepartamento(&d1);
     e1.adicionarDepartamento(&d2);
     e1.exibirDados();
     

@@ -9,7 +9,7 @@ class Empresa {
     private:
         string nome;
         long long cnpj;
-        vector<Departamento*> departamentos; // não tinha usado ponteiro
+        vector<Departamento*> departamentos;
     public:
         Empresa(string n, long long c);
         
@@ -19,7 +19,7 @@ class Empresa {
         long long getCnpj();
         void setCnpj(long long c);
         
-        void adicionarDepartamento(Departamento* departamento); // aqui eu também não tinha usado ponteiro
+        void adicionarDepartamento(Departamento* departamento);
         void exibirDepartamentos();
         
         void exibirDados();

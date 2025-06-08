@@ -8,7 +8,7 @@ using namespace std;
 class Departamento {
     private:
         string nome;
-        vector<Funcionario*> funcionarios; // mudei para ponteiro
+        vector<Funcionario*> funcionarios;
     public:
         Departamento(string n);
         

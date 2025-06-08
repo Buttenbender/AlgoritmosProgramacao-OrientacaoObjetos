@@ -19,7 +19,7 @@ void Empresa::setCnpj(long long c) {
     cnpj = c;
 }
 
-void Empresa::adicionarDepartamento(Departamento* departamento) { // estou tratando como ponteiro agora
+void Empresa::adicionarDepartamento(Departamento* departamento) {
     departamentos.push_back(departamento);
 }
 

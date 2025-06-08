@@ -28,7 +28,6 @@ void Funcionario::setDataAdmissao(string d) {
 }
 
 bool Funcionario::operator==(const Funcionario& outro) const {
-    // era: return nome == outro.nome;
     return nome == outro.nome &&
            salario == outro.salario &&
            dataAdmissao == outro.dataAdmissao;

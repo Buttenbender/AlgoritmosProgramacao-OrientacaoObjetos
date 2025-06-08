@@ -1,0 +1,91 @@
+#1
+Você acorda em uma cela escura, com apenas uma lanterna fraca iluminando o ambiente. Suas roupas
+estão sujas e você sente um leve cheiro de mofo no ar. A porta de ferro parece estar destrancada.
+>Sair silenciosamente da cela|2
+>Bater na porta e gritar por ajuda|3
+
+#2
+Você abre a porta cuidadosamente e vê um corredor escuro. Há um guarda zumbi dormindo encostado
+na parede a alguns metros adiante. Sua espada está caída no chão, ao seu lado.
+>Tentar pegar a espada silenciosamente|4
+>Atacar o zumbi|5
+>Tentar passar pelo zumbi sem chamar atenção|6
+
+#3
+Seus gritos ecoam pelo calabouço. Em segundos, um guarda zumbi aparece na porta, com olhos famintos.
+Você terá que lutar!
+@combate_zumbi
+
+#4
+Você tenta pegar a espada, mas o zumbi sente sua presença e acorda. Você terá que lutar!
+@combate_zumbi
+
+#5
+Você ataca o zumbi antes que ele possa reagir!
+@combate_zumbi_surpresa
+
+#6
+Você tenta passar pelo zumbi silenciosamente. Role sua sorte:
+@sorte_passar_zumbi
+
+#7
+Você conseguiu passar pelo zumbi! No final do corredor há uma armadura enferrujada, mas ainda
+útil, em um manequim de madeira.
+>Pegar a armadura|8
+>Deixar a armadura e seguir em frente|9
+
+#8
+@pegar_armadura
+
+#9
+Você deixa a armadura para trás e segue adiante. O corredor leva a uma escada que sobe para um pátio.
+Você percebe que você está em um castelo.
+@ir_para_10
+
+#10
+No pátio do castelo, você vê um Orc guardando o portão principal. Ele parece estar distraído comendo
+algo.
+>Tentar passar despercebido|11
+>Atacar o Orc|12
+>Voltar para dentro do castelo|13
+
+#11
+Você tenta passar despercebido. Role sua sorte:
+@sorte_passar_orc
+
+#12
+Você avança para atacar o Orc!
+@combate_orc
+
+#13
+Você volta para dentro do castelo e encontra uma biblioteca em ruínas. Entre os livros queimados,
+um parece intacto - "Magias Elementares para iniciantes".
+>Abrir o livro|14
+>Deixar o livro|15
+
+#14
+Você abre o livro!
+@aprender_magia_cura
+
+#15
+Você deixa o livro e continua explorando. Encontra um baú escondido atrás de uma estante.
+>Abrir o baú|16
+>Ignorar o baú|17
+
+#16
+Dentro do baú há uma espada longa de aço negro!
+@pegar_espada_negra
+
+#17
+Você deixa o baú e segue adiante, subindo a torre do castelo.
+@ir_para_18
+
+#18
+Na torre do castelo, você encontra o necromante Maldred, o responsável por criar os monstros que
+infestam o castelo. Ele ri ao te ver.
+"Então, um herói veio me enfrentar? Vejamos se você é capaz!"
+@combate_chefe
+
+#19
+Você derrotou o necromante Maldred! Com sua morte, os monstros do castelo caem inertes.
+Você libertou o castelo da maldição!

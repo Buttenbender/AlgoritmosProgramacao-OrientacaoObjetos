@@ -33,7 +33,6 @@ void Departamento::exibirFuncionarios() {
     cout << endl;
 }
 
-// era: void Departamento::transferirFuncionario(Departamento& destino, Funcionario funcionario);
 void Departamento::transferirFuncionario(Departamento& destino, Funcionario* funcionario) {
     excluirFuncionario(funcionario);
     destino.adicionarFuncionario(funcionario);
